@@ -1,0 +1,57 @@
+.chart-container {
+  width: 1200px;
+  height: 700px;
+  background: whitesmoke;
+  box-shadow: 3px 3px 3px lightgray;
+  border-radius: 5px;
+}
+
+.bar:hover {
+  fill: lightblue;
+}
+
+.outer-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.tooltip {
+  position: absolute;
+  background: lightblue;
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px gray;
+}
+
+.legendQuant {
+  width: 100px;
+  height: 100px;
+}
+
+.temp {
+  width: 500px;
+  height: 25px;
+  background: linear-gradient(
+    to right,
+    #e9092eaa,
+    #e9092eaa,
+    #d13b09aa,
+    #ea7811aa,
+    #ea7611aa,
+    #f3a620aa,
+    #f2cd49aa,
+    #f8f761aa,
+    #f7fc90aa,
+    #a7ffa6aa,
+    #7eff7aaa,
+    #57e752aa,
+    #37c109aa,
+    #36a3fcaa,
+    #2974ecaa,
+    #1818fcaa,
+    #0d00bcaa
+  );
+}
